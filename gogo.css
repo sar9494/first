@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue, sans-serif, Arial;
+}
+img{
+    border-radius: 5px;
+}
+.bigSection1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white, rgb(243, 245, 246));
+}
+.header{
+    margin-top: 30px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+}
+#headerSec1{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerSec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+.searchIcon{
+    width: 40px;
+    height: 40px;
+}
+.but1{
+    width: 70%;
+    display: flex;justify-content: space-around;
+}
+.but2{
+    width:90px ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 20px;
+}
+.view{
+    display: flex;
+    align-items: center;
+}
+.redDot{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 50%;
+    height: 0;
+    width: 0;
+}
+.boxHeaderIn{
+    width: 90px;
+    margin: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.boxHeader{
+text-align: right;
+width: 100px;
+height: 70px;
+}
+.downMenu{
+    height: 15px;
+    width: 15px;
+}
+.headerSec2Img{
+    width: 20px; 
+    height: 20px;
+}
+.Sec1{
+    font-family: Helvetica Neue, sans-serif, Arial;
+    margin-top: 40px;
+    background-color: rgb(232, 227, 227);
+    display: flex;
+    width: 90vw;
+    height: 420px;
+    max-width: 1200px;
+    border-radius: 10px;
+    background: linear-gradient(90deg in oklab,rgb(243, 245, 246),white);
+}
+.sec1text{
+    margin: 40px  40px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 50%;
+}
+.sec1Button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 20px 20px;
+    background:linear-gradient(90deg in oklab,rgb(207, 8, 8),rgb(244, 126, 15));
+}
+.shareButton{
+    width: 60px;
+    height: 40px;
+    background-color: #f0efef;
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Icon{
+    width: 30px;
+    height: 30px;
+}
+.sec1photo{
+    width: 50%;
+}
+.newsPhoto{
+    width: 100%;
+    height: 200px;
+}
+.Sec2{
+    margin-top: 40px;
+    width: 90vw;
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+}
+i{
+    color: gray;
+    
+}
+.Sec2SmallNews{
+width: 25%;
+}
+.newsFoot{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.timeIcon{
+    height: 20px;
+    width: 20px;
+}
+.gogoStory{ 
+    margin-top: 100px;
+    color: white;
+    width: 90vw;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+}
+.StoryBody{
+    display: flex;
+    gap: 20px;
+}
+.Story{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+}
+.StoryHead{
+    display: flex;
+    align-items: start;
+}
+.storyPhoto{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    position: absolute;
+    z-index: 1;
+}
+.storyText{
+    height: 40px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.GPhoto{
+    width: 35px;
+    height: 35px;
+    margin:15px;
+    z-index: 2;
+}
+.seen{
+    color:white;
+}
+.StorySeen{
+    margin: 15px;
+    display: flex;
+    gap: 5px;
+}
+.storyFoot{
+    z-index: 2;
+}
